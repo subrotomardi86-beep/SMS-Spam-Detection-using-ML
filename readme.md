@@ -46,3 +46,4 @@ Our Naïve Bayes model requires data to be in either Tf-IDF vectors or word vect
 
 In this step, we will train our model. Sklearn has many classification algorithms we can choose from. In this problem, we are using Naive Bayes algorithm. It's popular in text classification because of its relative simplicity. In sklearn, the Naive Bayes classifier is implemented in MultinomialNB. MultinomialNB needs the input data in word vector count or tf-idf vectors which we have prepared in data preparation steps. Below is the code that we will need in the model training step. You can see how easy it is to train a NaiveBayes classifer in sklearn.
 
+
